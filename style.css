@@ -15,6 +15,7 @@
   overflow: hidden;
   height: 100%;
   position: relative;
+  cursor: pointer;
   transition: all 0.3s ease-in;
 }
 .news-box:hover {
@@ -55,7 +56,6 @@
   justify-content: center;
   align-items: center;
   color: #aaa;
-  cursor: default;
   border: 1px solid #adabab;
   border-top: 2px solid #aaa;
 }
