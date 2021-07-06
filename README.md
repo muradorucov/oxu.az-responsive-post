@@ -2,7 +2,7 @@
 
 ## Project brief information:
 
-**The project is based on the news post templates of the website [oxu.az] (https://oxu.az/). Technologies used:**
+**The project is based on the news post templates of the website oxu.az (https://oxu.az/). Technologies used:**
 
 >HTML5
 
