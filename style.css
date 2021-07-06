@@ -1,0 +1,104 @@
+.container {
+  max-width: 1000px;
+  margin-top: 100px;
+}
+.padding{
+  padding-bottom:25px ;
+}
+
+.item {
+  height: 435px;
+  justify-content:center;
+}
+.news-box {
+  border: 1px solid #ddd;
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+  transition: all 0.3s ease-in;
+}
+.news-box:hover {
+  box-shadow: 0 3px 9px 1px #b9b9b9;
+  transition: all 0.3s ease-in;
+}
+
+.news-img img {
+  width: 100%;
+  height: 225px;
+  object-fit: cover;
+}
+.news-desc {
+  color: #13317f;
+  line-height: 1.25;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 25px 15px;
+  text-align: left;
+}
+
+.news-icons {
+  position: absolute;
+  bottom: -7px;
+  width: 100%;
+  align-items: flex-end;
+  height: 40px;
+  margin: 7px 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+}
+.news-icon {
+  width: calc(100% / 3);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+  cursor: default;
+  border: 1px solid #adabab;
+  border-top: 2px solid #aaa;
+}
+.first:hover,
+.second:hover {
+  border-color: #006700;
+  background-color: #008d1b;
+  color: #fff;
+}
+.news-icon i,
+.news-icon span {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0 5px;
+}
+.news-date {
+  position: absolute;
+  z-index: 2;
+}
+.date {
+  padding: 6px 15px;
+  background-color: #1895a0af;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Otomanopee One", sans-serif;
+}
+.time {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px 15px 3px;
+  background-color: #334564c9;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 986px) {
+    .news-box{
+      width: 303px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .item{
+      justify-content: center;
+    }
+}
