@@ -1,4 +1,4 @@
-# Oxu.az Responsive news post repo
+# Oxu.az responsive news post repo
 
 ### Layihə haqqında qısa məlumat :
 
