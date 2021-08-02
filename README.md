@@ -1,13 +1,19 @@
-# Welcome To OxuAzResponsiveNewsPosts Repo
+# Oxu.az Responsive news post repo
 
-## Project brief information:
+### Layihə haqqında qısa məlumat :
 
-**The project is based on the news post templates of the website oxu.az (https://oxu.az/). Technologies used:**
+- Layihəyə başlandı : 6 Iyul 2021
+- Layihə bitdi : 7 Iyul 2021
+- Layihə şablonu : [Oxu.az template](https://oxu.az/)
 
->HTML5
+### Layihədə istifadə olunan texnologiyalar :
 
->CSS3
+- Front-end texnologiyaları :
 
->Bootstrap
+  > HTML5
 
->Javascript
+  > CSS3
+
+  > Bootstrap
+
+  > Javascript
